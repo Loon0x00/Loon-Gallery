@@ -37,7 +37,7 @@
             <v-list-item three-line
                          v-for="(plugin, idx) in plugins[repoId]"
                          :key="idx"
-                         @click="open(plugin.url)">
+                         @click="install(plugin.url)">
               <v-list-item-avatar size="35px" rounded>
                 <v-icon v-if="plugin.icon === undefined">fa-question</v-icon>
                 <v-img :src="plugin.icon" v-else/>
