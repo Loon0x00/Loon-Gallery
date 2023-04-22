@@ -10,7 +10,7 @@
           alt="Loon Gallery"
           class="shrink mr-2"
           contain
-          src="https://avatars.githubusercontent.com/u/38467044?v=4"
+          src="https://raw.githubusercontent.com/Loon0x00/LoonManual/master/loon.png"
           transition="scale-transition"
           width="40"
         />
