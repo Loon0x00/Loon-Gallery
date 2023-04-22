@@ -6,7 +6,8 @@
 #!icon=https://raw.githubusercontent.com/Loon0x00/LoonManual/master/loon.png
 
 [Rule]
-DOMAIN-SUFFIX,raw.githubusercontent.com,PROXY
+DOMAIN,raw.githubusercontent.com,PROXY
+DOMAIN,loon-plugin.vercel.app,PROXY
 
 [MITM]
 hostname=xn--ck8h.com
