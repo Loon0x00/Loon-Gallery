@@ -5,6 +5,9 @@
 #!homepage=https://github.com/Peng-YM/Loon-Gallery
 #!icon=https://avatars.githubusercontent.com/u/38467044?v=4
 
+[Rule]
+DOMAIN-SUFFIX,raw.githubusercontent.com,PROXY
+
 [MITM]
 hostname=xn--ck8h.com
 

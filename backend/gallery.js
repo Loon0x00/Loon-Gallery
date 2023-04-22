@@ -25,7 +25,7 @@ function service() {
     const $app = express();
 
     $app.all("/", (req, res) => {
-        res.set("location", "https://loon-gallery.vercel.app/").status(302).end();
+        res.set("location", "https://loon-plugin.vercel.app/").status(302).end();
     });
 
     $app.start();
